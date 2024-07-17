@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+header {
+  width: 900px;
+  height: 80px;
+  background: red;
+}
+
+.section1 {
+  width: 280px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.section2 {
+  width: 620px;
+  height: 500px;
+  background-color: greenyellow;
+}
+
+footer {
+  width: 900px;
+  height: 60px;
+  background-color: purple;
+}
+
+.main {
+  display: flex;
+}
