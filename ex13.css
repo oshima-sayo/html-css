@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header{
+    width: 900px;
+    height:80px;
+    background-color: blueviolet;
+}
+
+.section1{
+    width: 280px;
+    height:500px;
+    background-color: blue;
+}
+
+.section2{
+    width: 620px;
+    height:500px;
+    background-color: cornflowerblue;
+    position: relative;
+    bottom:500px;
+    left:280px;
+}
+
+footer{
+    width: 900px;
+    height:60px;
+    color:white;
+    background-color: black;
+    position: relative;
+    bottom:500px;
+}
+
+span{
+    position: relative;
+    
+}
