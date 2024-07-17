@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>アンケート</h2>
+    <form action="#" method="post">
+        <label for="nameField">名前：</label><input id="nameField" type="text" name="name">
+    <br>
+        <label>パスワード：<input type="password" name="pass"></label>
+    <br>
+        性別：<input type="radio" name="gender" value="male">男
+        <input type="radio" name="gender" value="female">女
+    <br>
+        運動：<input type="checkbox" name="triathlon" value="swim">水泳
+        <input type="checkbox" name="triathlon" value="bike">バイク
+        <input type="checkbox" name="triathlon" value="run">走る
+    <br>
+    ファイル：<input type="file" name="resume">
+    <input type="hidden" name="employeeID" value="12345">
+    <br>備考：<br>
+    <textarea name="名前" rows="5" cols="50">入力してください</textarea>
+    <br>趣味：
+    <select name="hobby">
+        <option value="swim">水泳</option>
+        <option value="bike">バイク</option>
+        <option value="run">走る</option>
+    </select>
+    <br>趣味：
+    <select name="hobby" multiple>
+        <option value="swim">水泳</option>
+        <option value="bike">バイク</option>
+        <option value="run">走る</option>
+        <option value="tennis">テニス</option>
+        <option value="basketball">バスケ</option>
+    </select>
+    <br><br>
+    <button>送信</button>
+
+
+
+    </form>
+
+    
+    
+    
+</body>
+</html>
