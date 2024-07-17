@@ -6,4 +6,11 @@ div#dep {
 
 div.name {
   color: blue;
+
+div#dep{
+    color:red;
+}
+
+.name{
+    color:blue;
 }

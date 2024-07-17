@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 div {
   color: red;
 }
@@ -7,4 +8,10 @@ div {
 span {
   color: blue;
 
+div{
+    color:red;
+}
+
+span{
+    color:blue;
 }

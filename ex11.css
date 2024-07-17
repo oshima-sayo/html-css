@@ -18,3 +18,24 @@ li.odd {
 li.even {
   background-color: rgb(0,0,127);
 }
+
+ul{
+    margin-left: 0px;
+    list-style: none;
+}
+
+li{
+    width: 250px;
+    margin: 0px 0px 5px 0px;
+    color:white;
+    
+}
+
+.odd{
+    background-color:rgb(0,127,127);
+
+}
+
+.even{
+    background-color: rgb(0,0,127);
+}
