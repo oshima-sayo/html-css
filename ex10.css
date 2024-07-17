@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+div#dep {
+  color: red;
+}
+
+div.name {
+  color: blue;
+
 div#dep{
     color:red;
 }

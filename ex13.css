@@ -1,36 +1,41 @@
 @charset "UTF-8";
 
-header{
-    width: 900px;
-    height:80px;
-    background-color: blueviolet;
+header {
+  width: 900px;
+  height: 80px;
+  display: table;
+  background-color: yellow;
 }
 
-.section1{
-    width: 280px;
-    height:500px;
-    background-color: blue;
+div {
+  display: table;
 }
 
-.section2{
-    width: 620px;
-    height:500px;
-    background-color: cornflowerblue;
-    position: relative;
-    bottom:500px;
-    left:280px;
+span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
-footer{
-    width: 900px;
-    height:60px;
-    color:white;
-    background-color: black;
-    position: relative;
-    bottom:500px;
+.section1 {
+  width: 280px;
+  height: 500px;
+  background-color: red;
 }
 
-span{
-    position: relative;
-    
+.section2 {
+  width: 620px;
+  height: 500px;
+  background-color: blue;
+}
+
+footer {
+  width: 900px;
+  height: 60px;
+  display: table;
+  background-color: green;
+}
+
+.main {
+  display: flex;
 }
