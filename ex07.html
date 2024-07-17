@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ECサイト会員登録フォーム</h1>
+    <form>
+        <label>名前：<input id="name" name="name"></label><br>
+        <label>メールアドレス：<input id="mail" name="mail"></label><br>
+        <label>パスワード：<input type="password" name="pass"></label><br>
+        <label>性別：<input type="radio" name="gender" value="male">男</label>
+            <input type="radio" name="gender" value="male">女
+            <br>
+        <label>年齢：<select name="age">
+            <option value="10">10代</option>
+            <option value="20">20代</option>
+            <option value="30">30代</option>
+            <option value="40">40代</option>
+            <option value="50">50代</option>
+            <option value="60">60代</option>
+        </select></label><br>
+        <label>メールマガジンの配信：
+            <input type="checkbox" name="mailmagazine" value="yes">希望する
+            <input type="checkbox" name="mailmagazine" value="no">希望しない
+        </label><br>
+        <button>送信</button>
+        <button type="reset">リセット</button>
+
+        
+    </form>
+    
+</body>
+</html>
